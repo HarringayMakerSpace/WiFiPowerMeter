@@ -13,7 +13,7 @@ An ESP8266, any model should work, i've used an [ESP-12 with adapter plate](http
 
 Optionally, [a momentary on push button switch.](http://www.ebay.co.uk/itm/Quality-Momentary-Tactile-Push-Button-Switch-SPST-Miniature-Mini-Micro-Small-PCB-/180732232689) I used one desoldered from an old BT Access Point i'd pulled apart for scavenged bits.
  
-Open the case of the Power Meter and there is plenty of space inside. On the main board of the Power Meter connect wires to GND, CLK, and MISO to GND, GPIO4, GPIO5 on the ESP, and on the Power Meter connect wire from live and neutral to the 3.3v power supply input, and the output to the ESP Vin amd GND. Optionally, I've also added a minature push switch connected to GPIO-12 and GND on the ESP which when held down at power on has the ESP enter a config mode with Over-The-Air suport enabled so you can update the sketch without having to open up the case.
+Open the case of the Power Meter and there is plenty of space inside. On the main board of the Power Meter connect wires from GND, CLK, and MISO to GND, GPIO4, GPIO5 on the ESP, and on the Power Meter connect wires from live and neutral to the 3.3v power supply input, and the power supply output to the ESP Vin and GND. Optionally, I've also added a miniature push switch connected to GPIO-12 and GND on the ESP which when held down at power on has the ESP enter a config mode with Over-The-Air support enabled so you can update the sketch without having to open up the case.
 
 ![A Power Meter](https://github.com/HarringayMakerSpace/WiFiPowerMeter/blob/master/docs/meter2.png)
 
