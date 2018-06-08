@@ -1,4 +1,4 @@
-# WiFiPowerMeter
+# DIY IoT WiFiPowerMeter
 
 Karl Hagström did this great [Power Plug Energy Meter Hack](http://gizmosnack.blogspot.co.uk/2014/10/power-plug-energy-meter-hack.html). This extends that with an ESP8266 to add WiFi capability to send the power readings to the Internet. 
 
